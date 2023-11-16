@@ -1,4 +1,4 @@
-import { Group, User, Membership } from '../types';
+import { Group, User, Membership } from './types';
 import { BASE_URL } from './constans';
 
 const getGroupsWithUsers = async () => {

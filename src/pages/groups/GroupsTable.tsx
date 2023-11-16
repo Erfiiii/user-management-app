@@ -14,7 +14,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { Link as RouterLink } from 'react-router-dom';
 import { PropsWithChildren, memo, useCallback, useMemo } from 'react';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { useClientContext } from '../../client/ClientContext';
+import { useClientContext } from '../../client';
 import { prepareTableData } from './utils';
 import { Loading } from '../../components/loading';
 

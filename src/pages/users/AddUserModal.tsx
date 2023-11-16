@@ -9,9 +9,8 @@ import {
   DialogTitle,
   TextField,
 } from '@mui/material';
-import { useClientContext } from '../../client/ClientContext';
+import { useClientContext, Group } from '../../client';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { Group } from '../../types';
 
 interface OwnProps {
   open: boolean;

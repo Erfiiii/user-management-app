@@ -1,6 +1,6 @@
 import { Box, Button, Container, Typography } from '@mui/material';
 import { PropsWithChildren, useState } from 'react';
-import { useClientContext } from '../../client/ClientContext';
+import { useClientContext } from '../../client';
 import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'react-router-dom';
 import { EditUserModal } from './EditUserModal';

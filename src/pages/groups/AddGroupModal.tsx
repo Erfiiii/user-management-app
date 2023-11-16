@@ -1,6 +1,6 @@
 import { ChangeEvent, PropsWithChildren, useCallback, useState } from 'react';
 import { Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField } from '@mui/material';
-import { useClientContext } from '../../client/ClientContext';
+import { useClientContext } from '../../client';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 
 interface OwnProps {

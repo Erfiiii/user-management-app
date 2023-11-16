@@ -14,8 +14,7 @@ import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { Link as RouterLink } from 'react-router-dom';
 import { PropsWithChildren, memo, useCallback } from 'react';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { useClientContext } from '../../client/ClientContext';
-import { Group } from '../../types';
+import { useClientContext, Group } from '../../client';
 
 interface OwnProps {
   userId: string;

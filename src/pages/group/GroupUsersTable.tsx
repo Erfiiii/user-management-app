@@ -15,7 +15,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { PropsWithChildren, memo, useCallback } from 'react';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { useClientContext } from '../../client/ClientContext';
-import { User } from '../../types';
+import { User } from '../../client';
 
 interface OwnProps {
   groupId: string;

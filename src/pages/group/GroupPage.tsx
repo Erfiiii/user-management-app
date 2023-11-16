@@ -4,7 +4,7 @@ import GroupUsersTable from './GroupUsersTable';
 import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'react-router-dom';
 import { Loading } from '../../components/loading';
-import { useClientContext } from '../../client/ClientContext';
+import { useClientContext } from '../../client';
 
 interface OwnProps {}
 

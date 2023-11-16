@@ -1,5 +1,5 @@
 import { createContext, PropsWithChildren, useContext } from 'react';
-import { ClientContextType } from '../types';
+import { ClientContextType } from './types';
 
 export const ClientContext = createContext<ClientContextType | null>(null);
 

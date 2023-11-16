@@ -9,9 +9,8 @@ import {
   DialogTitle,
   TextField,
 } from '@mui/material';
-import { useClientContext } from '../../client/ClientContext';
+import { useClientContext, Group, User } from '../../client';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { Group, User } from '../../types';
 import { filterUnAssignedGroups } from './utils';
 
 interface OwnProps {
