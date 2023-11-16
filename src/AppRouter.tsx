@@ -1,6 +1,6 @@
 import { PropsWithChildren } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { MainCountainer } from './containers/main/MainContainer';
+import { MainCountainer } from './containers/main';
 
 interface OwnProps {}
 
