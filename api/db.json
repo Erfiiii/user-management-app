@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "name": "User 1",
+      "id": "3koKTJc"
+    },
+    {
+      "name": "User 2",
+      "id": "BH_sbtW"
+    },
+    {
+      "name": "User 4",
+      "id": "DOByYLT"
+    },
+    {
+      "name": "User 6",
+      "id": "5xYkCWC"
+    },
+    {
+      "name": "User 3",
+      "id": "Wm-fk74"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Group 2",
+      "id": "13YSJBd"
+    },
+    {
+      "name": "Group 3",
+      "id": "Gfw7In-"
+    }
+  ],
+  "memberships": [
+    {
+      "groupId": "Gfw7In-",
+      "userId": "DOByYLT",
+      "id": "zbQZRrX"
+    },
+    {
+      "groupId": "Gfw7In-",
+      "userId": "BH_sbtW",
+      "id": "ZClcXfP"
+    },
+    {
+      "groupId": "13YSJBd",
+      "userId": "5xYkCWC",
+      "id": "kaFoHtF"
+    },
+    {
+      "groupId": "Gfw7In-",
+      "userId": "5xYkCWC",
+      "id": "aTqPud9"
+    },
+    {
+      "groupId": "13YSJBd",
+      "userId": "Wm-fk74",
+      "id": "hz15Ipp"
+    },
+    {
+      "groupId": "Gfw7In-",
+      "userId": "3koKTJc",
+      "id": "cs4MvO6"
+    },
+    {
+      "groupId": "13YSJBd",
+      "userId": "3koKTJc",
+      "id": "X8h-bl0"
+    }
+  ]
+}
